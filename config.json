@@ -1,0 +1,25 @@
+{
+  "target_ip": "127.0.0.1",
+  "target_port": 19132,
+  "listen_host": "127.0.0.1",
+  "listen_port": 19132,
+  "panel_host": "127.0.0.1",
+  "panel_port": 5000,
+  "session_idle_timeout_sec": 30,
+  "chat_prefix": ".",
+  "cheats": {
+    "fly": false,
+    "speed": false,
+    "automine": false,
+    "noclip": false,
+    "killaura": false,
+    "reach": false,
+    "nofall": false,
+    "scaffold": false,
+    "antikick": true,
+    "nolag": true,
+    "fastbreak": false,
+    "secure": true
+  }
+}
+

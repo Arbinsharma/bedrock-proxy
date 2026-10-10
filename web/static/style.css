@@ -1,0 +1,9 @@
+body { background:#0d0f14; color:#d7e0ea; font-family:monospace; padding:20px; }
+h1 { color:#7fffd4; }
+.card { background:#141821; border:1px solid #222836; border-radius:8px; padding:14px; margin:14px 0; }
+label { display:block; margin:6px 0; }
+input { background:#0d0f14; color:#d7e0ea; border:1px solid #333; padding:4px; }
+button { background:#1c2230; color:#d7e0ea; border:1px solid #333; padding:6px 12px; margin:2px; cursor:pointer; border-radius:4px; }
+button.on { background:#1f7a4d; border-color:#2ecc71; }
+button.off { background:#3a1c22; border-color:#e74c3c; }
+pre { background:#0a0c10; padding:10px; border-radius:6px; max-height:300px; overflow:auto; }

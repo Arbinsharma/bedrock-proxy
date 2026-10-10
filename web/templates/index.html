@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AlphA Bedrock Proxy Panel</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<h1>AlphA Bedrock Proxy</h1>
+
+<div class="card">
+  <h2>Target</h2>
+  <label>Server IP <input id="target_ip"></label>
+  <label>Server Port <input id="target_port"></label>
+  <label>Listen Host <input id="listen_host"></label>
+  <label>Listen Port <input id="listen_port"></label>
+  <button onclick="saveConfig()">Save Config</button>
+</div>
+
+<div class="card">
+  <h2>Proxy</h2>
+  <button onclick="startProxy()">START</button>
+  <button onclick="stopProxy()">STOP</button>
+  <span id="state">state: ?</span>
+</div>
+
+<div class="card">
+  <h2>Cheats</h2>
+  <div id="cheats"></div>
+</div>
+
+<div class="card">
+  <h2>Status</h2>
+  <pre id="status"></pre>
+</div>
+
+<div class="card">
+  <h2>Logs</h2>
+  <pre id="logs"></pre>
+</div>
+
+<script src="/static/panel.js"></script>
+</body>
+</html>
